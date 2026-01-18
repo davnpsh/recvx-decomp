@@ -1,0 +1,26 @@
+[
+	{
+		"label": "Compile",
+		"command": "source .venv/bin/activate.fish && python compile.py && deactivate",
+		"use_new_terminal": false,
+		"allow_concurrent_runs": false,
+		"reveal": "no_focus",
+		"reveal_target": "dock",
+		"hide": "never",
+		"shell": "system",
+		"show_summary": true,
+		"show_command": true,
+	},
+	{
+		"label": "Build",
+		"command": "source .venv/bin/activate.fish && python mkiso.py -m insert && deactivate",
+		"use_new_terminal": false,
+		"allow_concurrent_runs": false,
+		"reveal": "no_focus",
+		"reveal_target": "dock",
+		"hide": "never",
+		"shell": "system",
+		"show_summary": true,
+		"show_command": true,
+	},
+]
